@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VEIL — Small-Batch Contemporary Fashion</title>
+  <meta name="description" content="Six pieces per season. Hand-finished in London. Direct only." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- SVG Thread Trail (cursor layer) -->
+  <svg id="thread-trail" aria-hidden="true">
+    <path id="thread-path" fill="none" stroke="var(--thread)" stroke-width="1" stroke-linecap="round" />
+  </svg>
+
+  <!-- Grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor" aria-hidden="true">
+    <div class="cursor-needle"></div>
+  </div>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-texture" style="background-image:url('https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1800&q=60&fm=jpg&fit=crop')"></div>
+    <div class="preloader-word">
+      <span>V</span><span>E</span><span>I</span><span>L</span>
+    </div>
+    <div class="preloader-line"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="nav">
+    <div class="nav-wordmark">VEIL</div>
+    <div class="nav-links">
+      <a href="#collection">SS25</a>
+      <a href="#construction">Process</a>
+      <a href="#waitlist">List</a>
+    </div>
+    <div class="nav-season">London · SS25 · 6 Pieces</div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" data-cursor-label="SCROLL">
+    <div class="hero-bg" id="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1800&q=85&fm=jpg&fit=crop"
+        alt="Atelier interior"
+        class="hero-img"
+        id="hero-img"
+      />
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">LONDON · EST. 2019</p>
+      <h1 class="hero-title" id="hero-title" data-var-weight>VEIL</h1>
+      <p class="hero-sub">Six pieces. Every season.<br>The rest is silence.</p>
+    </div>
+    <div class="hero-scroll-hint">
+      <span class="scroll-label">SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MATERIAL TICKER -->
+  <div class="ticker-wrap" aria-hidden="true">
+    <div class="ticker-track" id="ticker">
+      <span>6 PIECES&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>SS25&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>HAND-FINISHED IN LONDON&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>DIRECT ONLY&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>NO WHOLESALE&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>INSTRUMENT SERIFERIA LINEN&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>147 STITCHES PER HEM&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>6 PIECES&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>SS25&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>HAND-FINISHED IN LONDON&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>DIRECT ONLY&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>NO WHOLESALE&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>INSTRUMENT SERIFERIA LINEN&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+      <span>147 STITCHES PER HEM&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- THE SEAM — scrub-pinned gut-punch -->
+  <section id="seam" data-cursor-label="">
+    <div class="seam-pin-wrap" id="seam-pin">
+      <div class="seam-bg-text" aria-hidden="true">LABOR</div>
+      <div class="seam-content">
+        <p class="seam-eyebrow">THE WORK</p>
+        <blockquote class="seam-quote" id="seam-quote">
+          The seam you'll never see<br>took longer than the seam you will.
+        </blockquote>
+        <p class="seam-body">
+          Every piece in the SS25 collection is hand-finished. The interior construction
+          follows the same specification as the exterior. Not because you will notice.
+          Because we would.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLLECTION -->
+  <section id="collection" data-cursor-label="VIEW">
+    <div class="collection-header">
+      <p class="section-eyebrow">SS25 COLLECTION</p>
+      <h2 class="collection-title">Six<br><em>pieces.</em></h2>
+    </div>
+    <div class="collection-rail-wrap" id="collection-rail-wrap">
+      <div class="collection-rail" id="collection-rail">
+
+        <article class="piece" data-index="1">
+          <div class="piece-img-wrap">
+            <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=85&fm=jpg&fit=crop" alt="Piece 01" loading="lazy" />
+          </div>
+          <footer class="piece-meta">
+            <span class="piece-num">01</span>
+            <span class="piece-name">The Atelier Coat</span>
+            <span class="piece-stitches">147 stitches</span>
+          </footer>
+        </article>
+
+        <article class="piece" data-index="2">
+          <div class="piece-img-wrap">
+            <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=800&q=85&fm=jpg&fit=crop" alt="Piece 02" loading="lazy" />
+          </div>
+          <footer class="piece-meta">
+            <span class="piece-num">02</span>
+            <span class="piece-name">The Linen Sheath</span>
+            <span class="piece-stitches">203 stitches</span>
+          </footer>
+        </article>
+
+        <article class="piece" data-index="3">
+          <div class="piece-img-wrap">
+            <img src="https://images.unsplash.com/photo-1558618066-fcd25c85cd64?w=800&q=85&fm=jpg&fit=crop" alt="Piece 03" loading="lazy" />
+          </div>
+          <footer class="piece-meta">
+            <span class="piece-num">03</span>
+            <span class="piece-name">The Pressed Trouser</span>
+            <span class="piece-stitches">88 stitches</span>
+          </footer>
+        </article>
+
+        <article class="piece" data-index="4">
+          <div class="piece-img-wrap">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800&q=85&fm=jpg&fit=crop" alt="Piece 04" loading="lazy" />
+          </div>
+          <footer class="piece-meta">
+            <span class="piece-num">04</span>
+            <span class="piece-name">The Column Dress</span>
+            <span class="piece-stitches">312 stitches</span>
+          </footer>
+        </article>
+
+        <article class="piece" data-index="5">
+          <div class="piece-img-wrap">
+            <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=85&fm=jpg&fit=crop" alt="Piece 05" loading="lazy" />
+          </div>
+          <footer class="piece-meta">
+            <span class="piece-num">05</span>
+            <span class="piece-name">The Wrap Jacket</span>
+            <span class="piece-stitches">176 stitches</span>
+          </footer>
+        </article>
+
+        <article class="piece" data-index="6">
+          <div class="piece-img-wrap">
+            <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&q=85&fm=jpg&fit=crop&crop=entropy" alt="Piece 06" loading="lazy" />
+          </div>
+          <footer class="piece-meta">
+            <span class="piece-num">06</span>
+            <span class="piece-name">The Evening Shawl</span>
+            <span class="piece-stitches">94 stitches</span>
+          </footer>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONSTRUCTION DETAIL -->
+  <section id="construction" data-cursor-label="INSPECT">
+    <div class="construction-inner">
+      <div class="construction-text">
+        <p class="section-eyebrow">THE INTERIOR</p>
+        <h2 class="construction-title">The part<br>you'll<br><em>never see.</em></h2>
+        <p class="construction-body">
+          Interior construction follows the same specification as the exterior.
+          French seams throughout. Linen interfacing. Hand-catch stitching at every hem.
+          The lining is cut from the same cloth as the shell.
+        </p>
+        <div class="construction-stat">
+          <span class="stat-num" id="stitch-counter">147</span>
+          <span class="stat-label">hand stitches<br>per hem</span>
+        </div>
+      </div>
+      <div class="construction-img-wrap" id="construction-img-wrap">
+        <div class="loupe-overlay" id="loupe" aria-hidden="true"></div>
+        <img
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=90&fm=jpg&fit=crop"
+          alt="Interior seam construction"
+          class="construction-img"
+          id="construction-img"
+        />
+        <div class="construction-img-caption">Interior seam, Piece 01 · SS25</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAITING LIST -->
+  <section id="waitlist" data-cursor-label="">
+    <div class="waitlist-inner">
+      <div class="waitlist-number-wrap">
+        <span class="waitlist-label-top">CURRENT WAITLIST</span>
+        <span class="waitlist-num" id="waitlist-count">47</span>
+        <span class="waitlist-label-bottom">ahead of you</span>
+      </div>
+      <div class="waitlist-form-wrap">
+        <p class="waitlist-statement">
+          We don't have a waitlist button. We have a list.
+          Leave your address. We'll write when it's your turn.
+        </p>
+        <form class="waitlist-form" id="waitlist-form">
+          <div class="form-field">
+            <input type="email" id="email" name="email" placeholder="Your address" autocomplete="email" required />
+          </div>
+          <button type="submit" class="waitlist-btn">
+            <span class="btn-label">Join</span>
+            <span class="btn-arrow">→</span>
+          </button>
+        </form>
+        <p class="waitlist-footnote">No newsletter. No promotion. One message, when it's your turn.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-wordmark">VEIL</div>
+        <div class="footer-manifesto">
+          Made in London.<br>Six pieces per season.<br>The labor is the product.
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-address">Studio 4, 12 Bermondsey Street, London SE1</span>
+        <span class="footer-copy">© <strong>2025</strong> VEIL. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
